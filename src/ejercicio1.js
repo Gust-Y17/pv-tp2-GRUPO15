@@ -1,0 +1,2 @@
+let integrantes = "Josias Aron Meriles, Juan Ponzetti, Leandro Felipe Quiroga, Uriel Benjamin Zambrano y Miguel Gustavo Yevara Gabriel ";
+console.log ("somos " + integrantes + "y estamos aprendiendo JavaScript");
