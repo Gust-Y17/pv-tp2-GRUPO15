@@ -1,0 +1,61 @@
+<!--Construir una página utilizando Html, Css y JavaScript que contenga dos listas
+desplegables (<select>):
+La primera lista debe contener una selección de países de América.
+La segunda lista debe contener las capitales correspondientes a esos países.
+4
+Al seleccionar un país en la primera lista, la capital correspondiente debe seleccionarse
+automáticamente en la segunda lista, usando JavaScript.
+El comportamiento debe implementarse con JavaScript utilizando el evento change.
+Incluir al menos 6 países y sus capitales.
+Mostrar un mensaje en consola indicando qué país y capital están seleccionados-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Países y Capitales</title>
+<link rel="stylesheet" href="/assets/CSS/ejercicio20.css">
+</head>
+<body>
+
+  <h1>Selecciona un país de América</h1>
+
+  <label for="pais">País:</label>
+  <select id="pais">
+    <option value="">-- Selecciona un país --</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Belice">Belice</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Canadá">Canadá</option>
+        <option value="Chile">Chile</option>
+        <option value="Colombia">Colombia</option>
+        <option value="CostaRica">Costa Rica</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="ElSalvador">El Salvador</option>
+        <option value="Usa">Estados Unidos</option>
+        <option value="Guatemala">Guatemala</option>
+        <option value="Honduras">Honduras</option>
+        <option value="México">México</option>
+        <option value="Nicaragua">Nicaragua</option>
+        <option value="Panamá">Panamá</option>
+        <option value="Paraguay">Paraguay</option>
+        <option value="Perú">Perú</option>
+        <option value="Surinam">Surinam</option>
+        <option value="TrinidadYTobago">Trinidad y Tobago</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Venezuela">Venezuela</option>
+  </select>
+
+  <br>
+
+  <label for="capital">Capital:</label>
+  <select id="capital" disabled>
+    <option value="">-- Capital correspondiente --</option>
+  </select>
+
+  <script src="/src/ejercicio20.js">
+    
+  </script>
+
+</body>
+</html>
